@@ -28,9 +28,9 @@ TFRとの相関を、プールドOLS（POLS）・固定効果モデル（FE）�
 
 ### Part 1-1：女性の平均初婚年齢
 
-![Marriage age and TFR trend](plot_age_tfr.png)
-![Marriage age vs TFR scatter](scatter_age_tfr.png)
-![Model comparison: marriage age](model_comparison_age.png)
+![Marriage age and TFR trend](images/plot_age_tfr.png)
+![Marriage age vs TFR scatter](images/scatter_age_tfr.png)
+![Model comparison: marriage age](images/model_comparison_age.png)
 
 | モデル | 係数 |
 | --- | --- |
@@ -41,9 +41,9 @@ FEで係数の絶対値がPOLSの約1/3に縮小した。女性の平均初婚�
 
 ### Part 1-2：非正規雇用率
 
-![Non-regular rate and TFR trend](plot_nonreg_tfr.png)
-![Non-regular rate vs TFR scatter](scatter_nonreg_tfr.png)
-![Model comparison: non-regular rate](model_comparison_nr.png)
+![Non-regular rate and TFR trend](images/plot_nonreg_tfr.png)
+![Non-regular rate vs TFR scatter](images/scatter_nonreg_tfr.png)
+![Model comparison: non-regular rate](images/model_comparison_nr.png)
 
 | モデル | 係数 | p値 |
 | --- | --- | --- |
@@ -69,7 +69,7 @@ FEで係数の絶対値がPOLSの約1/3に縮小した。女性の平均初婚�
 
 ### 並行トレンド仮定の検証
 
-![Pre-trend check](tfr_pretrend_check.png)
+![Pre-trend check](images/tfr_pretrend_check.png)
 
 処置前期間について交差項付き回帰（`year_c:treated`）を行ったところ、係数は0.0013、p=0.715で全く有意ではなかった。これは処置群と対照群のTFRトレンドの傾きに統計的な差が見られないことを意味し、並行トレンド仮定を支持する結果である。ただし、対象がわずか5県であるため、クラスター数不足によりクラスター頑健標準誤差の理論的前提（目安30〜50クラスター以上）を満たしていない点には注意が必要である。
 
@@ -79,7 +79,7 @@ FEで係数の絶対値がPOLSの約1/3に縮小した。女性の平均初婚�
 
 ### 対照群の定義による頑健性チェック
 
-![Model comparison: control group definitions](model_comparison_did.png)
+![Model comparison: control group definitions](images/model_comparison_did.png)
 
 対照群の定義を変えて同一の県FE＋年FEモデル（`tfr ~ did + EntityEffects + TimeEffects`）を3通り実行し、結果が定義にどれだけ依存するかを検証した。
 
@@ -93,7 +93,7 @@ FEで係数の絶対値がPOLSの約1/3に縮小した。女性の平均初婚�
 
 ### 処置群の妥当性検証：定員（供給）と需要の分解
 
-![Capacity vs demand growth](capacity_vs_demand.png)
+![Capacity vs demand growth](images/capacity_vs_demand.png)
 
 待機児童ゼロの達成が「保育所整備（供給拡大）」によるものか「需要縮小」によるものかを区別するため、2016年から各県の処置年までの保育定員成長率と需要成長率を比較した。
 
@@ -107,7 +107,7 @@ FEで係数の絶対値がPOLSの約1/3に縮小した。女性の平均初婚�
 
 ### 感度分析：長崎県を処置群から除外
 
-![Sensitivity: with/without Nagasaki](model_comparison_sensitivity.png)
+![Sensitivity: with/without Nagasaki](images/model_comparison_sensitivity.png)
 
 長崎県を処置群から除外し、山形県のみを処置群として3つの対照群定義を再検証した。
 
