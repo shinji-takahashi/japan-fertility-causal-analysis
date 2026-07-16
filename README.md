@@ -30,7 +30,6 @@ TFRとの相関を、プールドOLS（POLS）・固定効果モデル（FE）�
 ### Part 1-1：女性の平均初婚年齢
 
 ![Marriage age analysis](images/plot_age_tfr_combined.png)
-![Model comparison: marriage age](images/model_comparison_age.png)
 
 | モデル | 係数 |
 | --- | --- |
@@ -38,6 +37,8 @@ TFRとの相関を、プールドOLS（POLS）・固定効果モデル（FE）�
 | 固定効果（FE） | -0.0609 |
 
 FEで係数の絶対値がPOLSの約1/3に縮小した。女性の平均初婚年齢が1歳上がるごとにTFRが約0.06減少するという関係が、都道府県固有の交絡を除去してもなお残る。ただし、県固有の時間変動する景気ショック（例：大手工場の閉鎖が結婚の先延ばしと出生率低下を同時に引き起こす等）は県FE・時間FEのいずれでも吸収できず、擬似相関の可能性は完全には排除できない。
+
+![Model comparison: marriage age](images/model_comparison_age.png)
 
 ### Part 1-2：非正規雇用率
 
