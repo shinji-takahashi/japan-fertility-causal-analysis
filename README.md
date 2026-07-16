@@ -30,9 +30,7 @@ TFRとの相関を、プールドOLS（POLS）・固定効果モデル（FE）�
 ### Part 1-1：女性の平均初婚年齢
 
 ![Marriage age and TFR trend](images/plot_age_tfr.png)
-<p align="center">
-  <img src="scatter_age_tfr.png" width="500">
-</p>
+![Marriage age and TFR trend](images/scatter_age_tfr.png)
 ![Model comparison: marriage age](images/model_comparison_age.png)
 
 | モデル | 係数 |
