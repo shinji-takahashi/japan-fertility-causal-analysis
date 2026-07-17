@@ -50,9 +50,7 @@ FEで係数の絶対値がPOLSの約1/3に縮小した。女性の平均初婚�
 
 ### Part 1-2：非正規雇用率
 
-![Non-regular rate and TFR trend](images/plot_nonreg_tfr.png)
-![Non-regular rate vs TFR scatter](images/scatter_nonreg_tfr.png)
-![Model comparison: non-regular rate](images/model_comparison_nr.png)
+![Non-regular_rate_and_TFR_analysis](images/plot_nr_tfr_combined.png)
 
 | モデル | 係数 | p値 |
 | --- | --- | --- |
@@ -60,6 +58,8 @@ FEで係数の絶対値がPOLSの約1/3に縮小した。女性の平均初婚�
 | 固定効果（FE） | +0.01052 | 0.019（有意） |
 
 非正規雇用率が1ポイント上がるごとにTFRが約0.01上昇するという、直感に反する正の符号がFEで有意に検出された。POLSでは非正規雇用率の高い県ほどTFRも高い傾向（地方 vs 都市の構造）が真の負の効果を打ち消していた可能性がある一方、FEはこの構造を除去した上で「同一県内で非正規雇用率が上がった年はTFRも上がる」という県内変動を捉えている。この結果については、県内の好景気が非正規雇用率の上昇（パート・アルバイト需要の増加）とTFRの上昇を同時に引き起こす擬似相関である可能性が高いと考えている（Project 3の分析結果とも整合的）。
+
+![Model comparison: non-regular rate](images/model_comparison_nr.png)
 
 -----
 
