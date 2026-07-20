@@ -48,6 +48,8 @@ FEで係数の絶対値がPOLSの約1/3に縮小した。女性の平均初婚�
 
 ![Model comparison: marriage age](images/model_comparison_age.png)
 
+-----
+
 ### Part 1-2：非正規雇用率
 
 ![Non-regular_rate_and_TFR_analysis](images/plot_nr_tfr_combined.png)
