@@ -54,6 +54,8 @@ TFRとの相関を、プールドOLS（POLS）・固定効果モデル（FE）�
 
 ![Model comparison: marriage age](images/model_comparison_age.png)
 
+なお、変量効果モデル（RE）についてもハウスマン検定を実施したところ（χ² = 37.50, df = 1, p < 0.0001）、REの一致性の仮定（県固有の効果が説明変数と無相関）は棄却された。したがって本分析ではFEを採用し、RE単体の結果は以降の議論には用いない。
+
 -----
 
 ### Part 1-2：非正規雇用率
