@@ -192,4 +192,4 @@ FEが検出した「同一県内で非正規雇用率が上がった年はTFRも
 
 ## Tech Stack
 
-`pandas` / `statsmodels` / `linearmodels`（`PanelOLS`, `RandomEffects`）/ `matplotlib`
+`pandas` / `numpy` / `scipy` / `statsmodels` / `linearmodels`（`PanelOLS`, `RandomEffects`）/ `matplotlib`
