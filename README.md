@@ -96,6 +96,8 @@ FEが検出した「同一県内で非正規雇用率が上がった年はTFRも
 
 ![Model comparison: non-regular rate](images/model_comparison_nr.png)
 
+グラフの95%信頼区間を見ると、固定効果（FE）の区間は0をまたいでおらず、統計的に有意な正の効果が確認できる。一方、プールドOLSの区間は0をまたいでおり、統計的に有意ではない。
+
 -----
 
 ## Part 2: Difference-in-Differences
