@@ -141,11 +141,11 @@ FEが検出した「同一県内で非正規雇用率が上がった年はTFRも
 
 ![Model comparison: control group definitions](images/model_comparison_did.png)
 
-### 処置群の妥当性検証：定員（供給）と需要の分解
-
-![Capacity vs demand growth](images/capacity_vs_demand.png)
+### 処置群の妥当性検証：供給（定員数）と需要（利用児童数+待機児童数）の分解
 
 待機児童ゼロの達成が「保育所整備（供給拡大）」によるものか「需要縮小」によるものかを区別するため、2016年から各県の処置年までの保育定員成長率と需要成長率を比較した。
+
+![Capacity vs demand growth](images/capacity_vs_demand.png)
 
 | 県 | 定員成長率 | 需要成長率 | 差 |
 | --- | --- | --- | --- |
